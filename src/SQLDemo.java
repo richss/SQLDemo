@@ -456,6 +456,11 @@ public class SQLDemo {
         demo1.printVideoGames();
 
         System.out.println("\n---------------------------------------------------");
+        System.out.println("Print all method demo:");
+        System.out.println("---------------------------------------------------");
+        demo1.printAll("GameReleases");
+
+        System.out.println("\n---------------------------------------------------");
         System.out.println("Print Single Game Info:");
         System.out.println("---------------------------------------------------");
         demo1.printGameInfo("Minecraft", 2009);
